@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+.ba-section-cups {
+    height: 100vh;
+    min-height: 100%;
+    background-color: #FDDE7E;
+}
+
+.ba-section-cups {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ba-row {
+    align-items: center;
+}
+
+.ba-cups-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    height: 441px;
+    padding-top: 42px;
+    padding-bottom: 36px;
+}
+
+.ba-cups-wrapper_height {
+    height: 500px;
+    padding-top: 52px;
+    padding-bottom: 55px;
+}
+
+.ba-cups__title {
+    margin: 0;
+    padding-right: 10px;
+    /* Style for "$2" */
+    color: #02995b;
+    font-family: "Misobold";
+    font-size: 70px;
+    font-weight: normal;
+    /* Text style for "$2" */
+    letter-spacing: 1.75px;
+    line-height: 50px;
+}
+
+.ba-cups__type {
+    margin: 0;
+    /* Style for "Bronze  an" */
+    color: #333333;
+    font-family: "Miso";
+    font-size: 56px;
+    font-weight: normal;
+    line-height: 24px;
+}
+
+.ba-cups__text {
+    margin: 0;
+    text-align: center;
+    color: #333333;
+    font-family: "Lato Light";
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
